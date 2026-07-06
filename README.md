@@ -66,7 +66,7 @@ The final dataset includes constructed variables such as:
 ### Regional mortality rates
 [Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
 
-## Implications
+## Implications & Policy Recommendations
 
 - Results suggest that extreme heat exposure is associated with higher mortality, highlighting the need for preparedness during heat events.
 - Effects are stronger for vulnerable populations, particularly older age groups, suggesting targeted adaptation policies.
