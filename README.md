@@ -54,11 +54,17 @@ The final dataset includes constructed variables such as:
 
 ## Key Outputs
 
+### Main regression results
+[Main results table](Outputs/tables/Main_results_table.png)
+### Age and sex heterogeneity
+[Demographic results](Outputs/tables/Demographic_results_table.png)
+### High-risk subgroup (65+)
+[High-risk subgroup results](Outputs/tables/High-risk_subgroup_results_table.png)
 
-
-
-
-
+### Weather station coverage
+[Stations map](Outputs/maps/Weather_stations_coverage_per_province.png)
+### Regional mortality rates
+[Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
 
 ## Implications
 
