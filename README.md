@@ -1,6 +1,8 @@
 # Data_Analysis_Project_My_Masters_Thesis
 
-Does extreme heat kill people in Spain, and who does it kill? I built a reproducible pipeline pulling 5,000+ files from 947 weather stations, merged them with national mortality and demographic records into a panel dataset covering 52 provinces, and estimated the effect for 2017–2019 using fixed-effects regression with demographic subgroup analysis.
+Does extreme heat kill people in Spain, and who does it kill? 
+
+I built a reproducible pipeline pulling 5,000+ files from 947 weather stations, merged them with national mortality and demographic records into a panel dataset covering 52 provinces, and estimated the effect for 2017–2019 using fixed-effects regression with demographic subgroup analysis.
 
 ![Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
 
@@ -25,7 +27,7 @@ The analytical subset used for the main regression analysis covers the 2017–20
 
 1. Collect weather data from API (~5,000+ CSV files retrieved in 6-month chunks across multiple years)
 2. Clean and standardize all datasets
-3. Construct panel dataset and feature engineer heat indicators
+3. Construct panel dataset and feature engineer the heat indicators
 4. Run fixed effects regressions and demographic subgroup analysis
 5. Generate maps and visualizations
 
