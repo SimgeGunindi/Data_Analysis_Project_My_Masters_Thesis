@@ -17,11 +17,7 @@ I built a reproducible pipeline pulling 5,000+ files from 947 weather stations, 
 
 The project integrates multiple data sources and produces a large panel dataset containing demographic and mortality information across regions, months, age groups, and sex categories.
 
-The final panel contains approximately:
-- ~400,000+ rows
-- 165 columns (variables)
-
-The analytical subset used for the main regression analysis covers the 2017–2019 period.
+Nearly 1 million rows (observations) across 165 columns (variables) were processed and aggregated to construct the final analysis panel.
 
 ## Project Workflow
 
@@ -44,7 +40,8 @@ The final dataset includes constructed variables such as:
 
 ## Key Findings
 
-- The analysis finds that higher extreme temperature exposure is associated with statistically significant increases in mortality rates in Spain, with effects that vary depending on humidity levels, as captured by temperature–humidity interaction terms.
+- The analysis finds that higher extreme temperature exposure is associated with statistically significant increases in mortality rates in Spain.
+- Effects vary depending on humidity levels, as captured by temperature–humidity interaction terms.
 - Effects are heterogeneous, with stronger impacts observed among older age groups and across sex-specific subgroups.
 
 ## Implications & Policy Recommendations
@@ -63,15 +60,20 @@ The final dataset includes constructed variables such as:
 
 ### Mortality_Rate_and_Maximum_Temperature_Tmax
 ![Mortality_Rate_and_Maximum_Temperature_Tmax](Outputs/graphs/Mortality_Rate_and_Maximum_Temperature_Tmax.png)
+Mortality increases at the highest temperature levels. Compared with moderate temperatures (reference category D5), the 9th and 10th temperature (hottest) deciles show statistically significant increases in mortality.
 ### Baseline_Effects_of_Extreme_Heat_and_Humidity
 ![Baseline_Effects_of_Extreme_Heat_and_Humidity](Outputs/graphs/Baseline_Effects_of_Extreme_Heat_and_Humidity.png)
+Extreme heat is associated with higher mortality (1.72 additional deaths per 100.000 people). The heat–humidity interaction is also statistically significant in the baseline specification.
 ### High-Risk_Subgroup_Results
 ![High-Risk_Subgroup_Results](Outputs/graphs/High-Risk_Subgroup_Results.png)
+The mortality effect is concentrated among older populations. For people aged 65+, the estimated effect is around 7 additional deaths per 100,000. For ages 85+, the estimated effect is substantially larger (around 20 excess deaths) and statistically significant.
 
 ### Main regression results
 ![Main results table](Outputs/tables/Main_results_table.png)
+The original table of the baseline results (The 2nd graph above).
 ### Age and sex heterogeneity
 ![Demographic results](Outputs/tables/Demographic_results_table.png)
+The original table of the demographic results.
 ### High-risk subgroup (65+)
 ![High-risk subgroup results](Outputs/tables/High-risk_subgroup_results_table.png)
 
