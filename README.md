@@ -56,17 +56,17 @@ The final dataset includes constructed variables such as:
 
 ## Key Outputs
 
-### Baseline_Effects_of_Extreme_Heat_and_Humidity
-![Baseline_Effects_of_Extreme_Heat_and_Humidity](Outputs/graphs/Baseline_Effects_of_Extreme_Heat_and_Humidity.png)
-### Mortality_Rate_and_Maximum_Temperature_Tmax
-![Mortality_Rate_and_Maximum_Temperature_Tmax](Outputs/graphs/Mortality_Rate_and_Maximum_Temperature_Tmax.png)
-### High-Risk_Subgroup_Results
-![High-Risk_Subgroup_Results](Outputs/graphs/High-Risk_Subgroup_Results.png)
-
 ### Weather station coverage
 ![Stations map](Outputs/maps/Weather_stations_coverage_per_province.png)
 ### Regional mortality rates
 ![Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
+
+### Mortality_Rate_and_Maximum_Temperature_Tmax
+![Mortality_Rate_and_Maximum_Temperature_Tmax](Outputs/graphs/Mortality_Rate_and_Maximum_Temperature_Tmax.png)
+### Baseline_Effects_of_Extreme_Heat_and_Humidity
+![Baseline_Effects_of_Extreme_Heat_and_Humidity](Outputs/graphs/Baseline_Effects_of_Extreme_Heat_and_Humidity.png)
+### High-Risk_Subgroup_Results
+![High-Risk_Subgroup_Results](Outputs/graphs/High-Risk_Subgroup_Results.png)
 
 ### Main regression results
 ![Main results table](Outputs/tables/Main_results_table.png)
