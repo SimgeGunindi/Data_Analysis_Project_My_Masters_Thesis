@@ -47,7 +47,26 @@ The final dataset includes constructed variables such as:
 - The analysis finds that higher extreme temperature exposure is associated with statistically significant increases in mortality rates in Spain, with effects that vary depending on humidity levels, as captured by temperature–humidity interaction terms.
 - Effects are heterogeneous, with stronger impacts observed among older age groups and across sex-specific subgroups.
 
+## Implications & Policy Recommendations
+
+- Results suggest that extreme heat exposure is associated with higher mortality, highlighting the need for preparedness during heat events.
+- Effects are stronger for vulnerable populations, particularly older age groups, suggesting targeted adaptation policies.
+- Humidity may play an additional role in heat-related health risks, suggesting that accounting for humidity should be considered in policy design.
+- Evidence based on local temperature percentiles indicates that relative, location-specific thresholds may be more informative than absolute temperature levels for risk assessment.
+
 ## Key Outputs
+
+### Baseline_Effects_of_Extreme_Heat_and_Humidity
+![Baseline_Effects_of_Extreme_Heat_and_Humidity](Outputs/graphs/Baseline_Effects_of_Extreme_Heat_and_Humidity.png)
+### Mortality_Rate_and_Maximum_Temperature_Tmax
+![Mortality_Rate_and_Maximum_Temperature_Tmax](Outputs/graphs/Mortality_Rate_and_Maximum_Temperature_Tmax.png)
+### High-Risk_Subgroup_Results
+![High-Risk_Subgroup_Results](Outputs/graphs/High-Risk_Subgroup_Results.png)
+
+### Weather station coverage
+![Stations map](Outputs/maps/Weather_stations_coverage_per_province.png)
+### Regional mortality rates
+![Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
 
 ### Main regression results
 ![Main results table](Outputs/tables/Main_results_table.png)
@@ -55,18 +74,6 @@ The final dataset includes constructed variables such as:
 ![Demographic results](Outputs/tables/Demographic_results_table.png)
 ### High-risk subgroup (65+)
 ![High-risk subgroup results](Outputs/tables/High-risk_subgroup_results_table.png)
-
-### Weather station coverage
-![Stations map](Outputs/maps/Weather_stations_coverage_per_province.png)
-### Regional mortality rates
-![Mortality map](Outputs/maps/Average_monthly_mortality_rate_by_province.png)
-
-## Implications & Policy Recommendations
-
-- Results suggest that extreme heat exposure is associated with higher mortality, highlighting the need for preparedness during heat events.
-- Effects are stronger for vulnerable populations, particularly older age groups, suggesting targeted adaptation policies.
-- Humidity may play an additional role in heat-related health risks, suggesting that accounting for humidity should be considered in policy design.
-- Evidence based on local temperature percentiles indicates that relative, location-specific thresholds may be more informative than absolute temperature levels for risk assessment.
 
 ## Repository Structure
 
