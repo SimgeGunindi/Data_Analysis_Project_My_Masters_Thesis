@@ -17,7 +17,7 @@ I built a reproducible pipeline pulling 5,000+ files from 947 weather stations, 
 
 The project integrates multiple data sources and produces a large panel dataset containing demographic and mortality information across regions, months, age groups, and sex categories.
 
-Nearly 1 million rows (observations) across 165 columns (variables) were processed and aggregated to construct the final analysis panel.
+Nearly 1.000.000 rows (observations) across 165 columns (variables) were processed and aggregated to construct the final analysis panel.
 
 ## Project Workflow
 
