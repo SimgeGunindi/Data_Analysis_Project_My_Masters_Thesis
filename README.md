@@ -60,7 +60,7 @@ The final dataset includes constructed variables such as:
 
 ### Main regression results
 ![Main results table](Outputs/tables/Main_results_table.png)
-The original table of the baseline results (The 2nd graph above).
+The original table of the baseline results.
 ### Age and sex heterogeneity
 ![Demographic results](Outputs/tables/Demographic_results_table.png)
 The original table of the demographic results.
